@@ -18,4 +18,4 @@ migrate -database "${APP_DSN}" -path ./migrations up
 echo "[`date`] Starting server..."
 ./server -config ${CONFIG_FILE} >> /var/log/app/server.log 2>&1
 
-//////////////////////review///////////
+# //////////////////////review///////////
